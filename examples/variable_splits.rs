@@ -2,7 +2,7 @@
 //! Each split is a camera at a different angle around a spinning green cube.
 //!
 //! Usage:
-//!   cargo run -p bevy_split_screen --example split_screen_demo
+//!   cargo run -p bevy_split_screen --example variable_splits
 
 use std::f32::consts::TAU;
 

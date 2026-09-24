@@ -16,14 +16,15 @@ mod components;
 mod layout;
 mod viewport_systems;
 
-use layout::{DefaultSplitScreenLayout, SplitScreenLayout};
+pub use components::SplitScreenCamera;
+pub use layout::{DefaultSplitScreenLayout, SplitScreenLayout, SplitScreenViewport};
 
 /// System set for assigning viewports to split screen cameras. Use this to order your systems
 /// before the new viewport layout is computed.
 #[derive(Debug, Clone, Copy, PartialEq, Eq, Hash, SystemSet)]
 pub struct SplitScreenSystemSet;
 
-/// Split screen plugin using the default horizontal layout
+/// Split screen plugin using the default grid layout
 pub struct SplitScreenPlugin;
 
 impl Plugin for SplitScreenPlugin {
