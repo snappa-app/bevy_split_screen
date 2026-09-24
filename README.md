@@ -18,7 +18,7 @@ To customize the layout of each split, implement the `SplitScreenLayout` and pas
 To see how to use it in your game, check out the [example](./examples/variable_splits.rs).
 
 Here's what it looks like using the `DefaultSplitScreenLayout`:
-![screenshot showing 3 splits](./docs/three_split_example.png)
+![screenshot showing 3 splits](https://raw.githubusercontent.com/snappa-app/bevy_split_screen/main/docs/three_split_example.png)
 
 ## Supported Bevy Version
 
