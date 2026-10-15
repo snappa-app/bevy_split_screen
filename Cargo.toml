@@ -1,8 +1,8 @@
 [package]
 name = "bevy_split_screen"
-version = "0.1.0"
+version = "0.2.0"
 edition = "2024"
-rust-version = "1.95.0"
+rust-version = "1.97.1"
 description = "Automatic split screen camera viewports for local multiplayer Bevy games"
 license = "MIT OR Apache-2.0"
 repository = "https://github.com/snappa-app/bevy_split_screen"
@@ -12,7 +12,7 @@ categories = ["game-development"]
 exclude = ["docs/", "rust-toolchain.toml", "rustfmt.toml", ".gitignore"]
 
 [dependencies]
-bevy = { version = "0.19.1", default-features = false, features = ["bevy_camera", "bevy_window"] }
+bevy = { version = "0.20.0", default-features = false, features = ["bevy_camera", "bevy_window"] }
 
 [dev-dependencies]
-bevy = "0.19.1"
+bevy = "0.20.0"

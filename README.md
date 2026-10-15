@@ -4,11 +4,11 @@ A library for adding split screen support to [Bevy](https://bevy.org/) games.
 
 ## Getting Started
 
-For Bevy 0.19, add split screen to your project with:
+For Bevy 0.20, add split screen to your project with:
 
 ```toml
 [dependencies]
-bevy_split_screen = "0.1.0"
+bevy_split_screen = "0.2.0"
 ```
 
 To make a camera display in a split, add the `SplitScreenCamera` to your `Camera` entities with a `player_index`. Resizing and assigning viewports is handled automatically.
@@ -24,4 +24,5 @@ Here's what it looks like using the `DefaultSplitScreenLayout`:
 
 | bevy_split_screen | Bevy |
 |-------------------|------|
+| 0.2.0             | 0.20 |
 | 0.1.0             | 0.19 |
